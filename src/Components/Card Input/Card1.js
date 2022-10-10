@@ -51,14 +51,6 @@ const Card1 = () => {
   const check = (data) => {
   {
    console.log(data);
-    // if(data == "")
-    // {
-
-  
-    //   setError2(true);
-    //   setCity('');
-    // }
-    // else{
       setError2(false);
       setCount(1);
       setCity('');
