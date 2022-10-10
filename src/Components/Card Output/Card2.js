@@ -1,5 +1,5 @@
 import React from 'react'
-import Error2 from '../Error2/Error2';
+
 import './Card2.css'
 
 const Card2 = ({data, count,setCount,setCity}) => {

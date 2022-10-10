@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Card1.css'
 import { useState } from 'react';
 
@@ -6,7 +6,7 @@ import axios from 'axios'
 import Card2 from '../Card Output/Card2';
 import Error from '../Error/Error';
 import Error2 from '../Error2/Error2';
-import { toBeChecked } from '@testing-library/jest-dom/dist/matchers';
+
 const Card1 = () => {
   const [error,setError]=useState(false);
   const [error2,setError2]=useState(false);
@@ -20,7 +20,7 @@ const Card1 = () => {
     {
       setData(response.data)
       console.log(response.data)
-      if(response.status==200)
+      if(response.status===200)
       {
         check(data);   
       }
@@ -84,7 +84,7 @@ const Card1 = () => {
       </div> 
     )}
       
-  if(count == 1 ){
+  if(count === 1 ){
     
       return(
         <div>
