@@ -1,64 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
 
-
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.card2{
-    background-color: #A4CDEB;
-    padding: 60px;
-    padding-top: 10px;
-    padding-bottom: 100px;
-    border: 2px solid white;
-    border-radius: 10px;
-  }
+.card2 {
+  background-color: #a4cdeb;
+  padding: 60px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
 
-.container2{
+.container2 {
   display: flex;
   height: 100vh;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.cityname{
+.cityname {
   color: white;
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: "Noto Sans Mono", monospace;
 }
 
-.temp{
+.temp {
   color: white;
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: "Noto Sans Mono", monospace;
 }
 
-.type{
+.type {
   color: white;
-  font-family: 'Noto Sans Mono', monospace; 
+  font-family: "Noto Sans Mono", monospace;
 }
 
-.country{
+.country {
   color: white;
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: "Noto Sans Mono", monospace;
 }
 
-.btn2{
-    position: relative;
-    top: 170px;
-    margin: 0 auto;
-    display: block;
-    padding: 10px 20px;
-    background-color: white;
-    border: none;
-  
-    font-size: large;
-    color: #8bbadb;
-    font-family: 'Noto Sans Mono', monospace;
-    transition-duration: 0.4s;
-  }
+.btn2 {
+  position: relative;
+  top: 170px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
 
-  .btn2:hover {
-    background-color: #F0964C;
-    color: white;
-  }
+  font-size: large;
+  color: #8bbadb;
+  font-family: "Noto Sans Mono", monospace;
+  transition-duration: 0.4s;
+}
+
+.btn2:hover {
+  background-color: #f0964c;
+  color: white;
+}

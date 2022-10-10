@@ -1,62 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
 
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-.container{
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
+.card {
+  background-color: #a4cdeb;
+  padding: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
 
-.card{
-    background-color: #A4CDEB;
-    padding: 60px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border: 2px solid white;
-    border-radius: 10px;
-  }
-  
-.submit{
-    position: relative;
-    top: 20px;
-    margin: 0 auto;
-    display: block;
-    padding: 10px 20px;
-    background-color: white;
-    border: none;
-  
-    font-size: large;
-    color: #8bbadb;
-    font-family: 'Noto Sans Mono', monospace;
-    transition-duration: 0.4s;
-  }
-  
+.submit {
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+
+  font-size: large;
+  color: #8bbadb;
+  font-family: "Noto Sans Mono", monospace;
+  transition-duration: 0.4s;
+}
+
 .submit:hover {
-    background-color: #F0964C;
-    color: white;
-  }
-  
-  input[type=text], select{
-    padding: 7.5px 10px;
-    text-decoration: none;
-    border: 1px solid #ccc;
-    display: inline-block;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .label{
-    margin: 0 auto;
-    display: block;
-    color:white;
-    font-family: 'Noto Sans Mono', monospace;
-    font-size:x-large;
-  
-  }
+  background-color: #f0964c;
+  color: white;
+}
+
+input[type="text"],
+select {
+  padding: 7.5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.label {
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: x-large;
+}

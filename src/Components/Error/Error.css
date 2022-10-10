@@ -1,20 +1,17 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-
-.error2{
-    
-        display: flex;
-        
-          align-items: center;
-          justify-content: center;
-   
-    
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.error3{
-    padding-top: 40px;
-    color: white;
+.error2 {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.error3 {
+  padding-top: 40px;
+  color: white;
 }

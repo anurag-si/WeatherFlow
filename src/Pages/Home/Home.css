@@ -1,10 +1,9 @@
-.home{
+.home {
   background-image: url(/src/package/weather.jpeg);
   height: 150vh;
 }
 
-
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;

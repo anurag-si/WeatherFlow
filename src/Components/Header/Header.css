@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-
-.header{
-    background-color: #A4CDEB;
-    font-size: xx-large;
-    height: 70px ;
-    border-bottom: 2px solid white;
-    color: white;
-    font-family: 'Noto Sans Mono', monospace;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-
-#left-nav{
-    text-align-last: center;
-    padding-top: 10px;
+.header {
+  background-color: #a4cdeb;
+  font-size: xx-large;
+  height: 70px;
+  border-bottom: 2px solid white;
+  color: white;
+  font-family: "Noto Sans Mono", monospace;
 }
 
-#right-nav{
-    text-align-last: right;
-    bottom: 90px;
+#left-nav {
+  text-align-last: center;
+  padding-top: 10px;
 }
 
+#right-nav {
+  text-align-last: right;
+  bottom: 90px;
+}

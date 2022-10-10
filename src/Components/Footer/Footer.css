@@ -1,20 +1,20 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #A4CDEB;
-    height: 70px;
-    border-top: 2px solid white;
-    color: white;
-    font-family: 'Noto Sans Mono', monospace;
-    text-align: center;
-    font-size: xx-large;
-    padding-top: 10px;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #a4cdeb;
+  height: 70px;
+  border-top: 2px solid white;
+  color: white;
+  font-family: "Noto Sans Mono", monospace;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 10px;
 }

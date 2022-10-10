@@ -1,35 +1,33 @@
-import React from 'react'
+import React from "react";
 
-import './Card2.css'
+import "./Card2.css";
 
-const Card2 = ({data, count,setCount,setCity}) => {
-
-  const handleSubmit= (e) => {
+const Card2 = ({ data, count, setCount, setCity }) => {
+  const handleSubmit = (e) => {
     setCount(0);
-  }
-
+  };
 
   return (
-    <div className='container2'>
-      <div className='card2'>
-        <button className='btn2' onClick={handleSubmit}>Check Again</button>
-        <div className='cityname'>
-        <h1>{data.name}</h1>
+    <div className="container2">
+      <div className="card2">
+        <button className="btn2" onClick={handleSubmit}>
+          Check Again
+        </button>
+        <div className="cityname">
+          <h1>{data.name}</h1>
         </div>
-        <div className='temp'>
-        {data.main ?<h4> {data.main.temp}</h4> : null}
+        <div className="temp">
+          {data.main ? <h4> {data.main.temp}</h4> : null}
         </div>
-        <div className='type'>
-        {data.weather ? <h4>{data.weather[0].main}</h4> : null} 
-        </div>       
-        <div className='country'>
-        {data.sys ? <h4>{data.sys.country}</h4> : null}
+        <div className="type">
+          {data.weather ? <h4>{data.weather[0].main}</h4> : null}
+        </div>
+        <div className="country">
+          {data.sys ? <h4>{data.sys.country}</h4> : null}
         </div>
       </div>
-    </div> 
-  )
+    </div>
+  );
+};
 
-
-}
-
-export default Card2
+export default Card2;
