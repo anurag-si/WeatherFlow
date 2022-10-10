@@ -49,13 +49,12 @@ const Card1 = () => {
   }
 
   const check = (data) => {
-  {
    console.log(data);
       setError2(false);
       setCount(1);
       setCity('');
     
-  }}
+  }
 
   
 
