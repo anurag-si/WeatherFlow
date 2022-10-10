@@ -10,9 +10,11 @@ const Header = () => {
             </li>
         </ul>
         {/* <ul id="right-nav">
-            <li className='img1'>
+            <li className='img1'> 
                 <img src='../../packages/weather.jpeg' />
             </li>
+
+
             <li>
                 Logo
             </li>

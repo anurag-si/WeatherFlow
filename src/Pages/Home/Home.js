@@ -9,6 +9,8 @@ const Home = () => {
   return (
     <div className='home'>
       <Header />  
+
+      
       <Card1 />
       <Footer />
     </div>

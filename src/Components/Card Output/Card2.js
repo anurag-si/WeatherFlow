@@ -1,15 +1,15 @@
 import React from 'react'
+import Error2 from '../Error2/Error2';
 import './Card2.css'
 
 const Card2 = ({data, count,setCount,setCity}) => {
 
   const handleSubmit= (e) => {
     setCount(0);
-  
-  console.log(count);
   }
-  return (
 
+
+  return (
     <div className='container2'>
       <div className='card2'>
         <button className='btn2' onClick={handleSubmit}>Check Again</button>
@@ -26,9 +26,10 @@ const Card2 = ({data, count,setCount,setCity}) => {
         {data.sys ? <h4>{data.sys.country}</h4> : null}
         </div>
       </div>
-    </div>
-    
+    </div> 
   )
+
+
 }
 
 export default Card2

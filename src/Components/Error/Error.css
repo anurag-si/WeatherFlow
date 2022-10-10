@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 
-.error{
+.error2{
     
         display: flex;
         
@@ -14,7 +14,7 @@
     
 }
 
-.error1{
+.error3{
     padding-top: 40px;
     color: white;
 }

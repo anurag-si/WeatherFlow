@@ -5,8 +5,11 @@ import { useState } from 'react';
 import axios from 'axios'
 import Card2 from '../Card Output/Card2';
 import Error from '../Error/Error';
+import Error2 from '../Error2/Error2';
+import { toBeChecked } from '@testing-library/jest-dom/dist/matchers';
 const Card1 = () => {
   const [error,setError]=useState(false);
+  const [error2,setError2]=useState(false);
   const [count,setCount] = useState(0);
   const [city,setCity]=useState('');
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=86b862a836cc84618fbb6187f128fe27`;
@@ -17,25 +20,52 @@ const Card1 = () => {
     {
       setData(response.data)
       console.log(response.data)
-    }
-    )
+      if(response.status==200)
+      {
+        check(data);   
+      }
+      
+    })
+    .catch(err => {
+        setError2(true);
+
+    }) 
+    
+    
   }  
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(!city)
+    if(!city )
     {
+      setError2(false);
       setError(true);
-      console.log(error);
     }
-    else
-     { 
-      setCount(1);
+    else { 
       setError(false);
       searchLocation();
-      setCity('');
+
+   
     }
   }
 
+  const check = (data) => {
+  {
+   console.log(data);
+    // if(data == "")
+    // {
+
+  
+    //   setError2(true);
+    //   setCity('');
+    // }
+    // else{
+      setError2(false);
+      setCount(1);
+      setCity('');
+    
+  }}
+
+  
 
   if(count === 0)
     {return (
@@ -48,12 +78,14 @@ const Card1 = () => {
         <button className="submit" type="submit">Submit</button>  
         </form>
         {error && <Error />}
+        {error2 && <Error2 />}
       </div>
       
       </div> 
     )}
       
   if(count == 1 ){
+    
       return(
         <div>
           <Card2 data={data} 
@@ -62,7 +94,7 @@ const Card1 = () => {
           />
         </div>
       )
-    }   
+    }  
     
 //     if(error == 5)
 //     {

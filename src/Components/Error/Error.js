@@ -2,7 +2,6 @@ import React from 'react'
 import './Error.css'
 
 const Error = () => {
-  console.log('erro')
   return (
     <div className='error'>
       <h1 className='error1'>
