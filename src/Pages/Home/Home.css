@@ -1,6 +1,6 @@
 .home {
   background-image: url(/src/package/weather.jpeg);
-  height: 150vh;
+  height: 100vh;
 }
 
 * {

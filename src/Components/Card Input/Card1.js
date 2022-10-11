@@ -55,6 +55,7 @@ const Card1 = () => {
             <label className="label">Enter Place Name</label>
             <br />
             <input
+              className="text"
               type="text"
               name="name"
               onChange={(e) => setCity(e.target.value)}

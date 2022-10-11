@@ -6,7 +6,7 @@ const Error2 = () => {
   return (
     <div className="error2">
       <div className="error3">
-        <h1>Enter Correct City Name</h1>
+        Enter Correct City Name
       </div>
     </div>
   );
