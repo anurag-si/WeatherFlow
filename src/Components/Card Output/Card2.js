@@ -25,6 +25,15 @@ const Card2 = ({ data, count, setCount, setCity }) => {
         <div className="country">
           {data.sys ? <h4>{data.sys.country}</h4> : null}
         </div>
+        {/* <button >hiuh</button>
+        <button>uidib</button>
+        <article>
+          fius
+        </article>
+        <button>binjcdks</button>
+        <p className="p">
+          gnskld s
+        </p> */}
       </div>
     </div>
   );

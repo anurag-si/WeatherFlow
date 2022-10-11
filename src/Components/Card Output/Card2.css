@@ -1,4 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
+/* .container2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+}
+
+.card2{
+
+  margin-right: 10px;
+} */ 
+
+ @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
 
 * {
   margin: 0px;
@@ -60,4 +73,8 @@
 .btn2:hover {
   background-color: #f0964c;
   color: white;
+}
+
+.p{
+  text-decoration: none;
 }
