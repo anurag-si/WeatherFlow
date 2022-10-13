@@ -14,7 +14,9 @@ const Card2 = ({ data, count, setCount, setCity }) => {
           Check Again
         </button>
         <div className="cityname">
-          <h1>{data.name}</h1>
+          <h1>
+            <b>{data.name}</b>
+          </h1>
         </div>
         <div className="temp">
           {data.main ? <h4> {data.main.temp}</h4> : null}

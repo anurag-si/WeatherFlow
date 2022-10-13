@@ -3,29 +3,41 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
-.container{
+.container {
   display: flex;
-  height: 80vh;
+  height: 85vh;
   justify-content: center;
   align-items: center;
+  /* background-color: #f0964c; */
 }
-.container .card {
+
+.card {
+  display: flex;
   background-color: #a4cdeb;
-  padding: 10px;
+  height: 20vh;
+  padding: 60px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
   border: 2px solid white;
   border-radius: 10px;
-  padding: 60px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  /* flex: 1; */
 }
 
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex: 1;
+}
 
-.container .card .submit{
-  position: relative;
+.submit1 {
   background-color: white;
   border: none;
   font-size: large;
@@ -33,20 +45,75 @@
   font-family: "Noto Sans Mono", monospace;
   transition-duration: 0.4s;
   padding: 10px 15px;
-  top: 20px;
-  margin: 0 auto;
-  display: block;
 }
 
-.container .card .submit:hover {
+.submit1:hover {
   background-color: #f0964c;
   color: white;
 }
 
+.label {
+  display: flex;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: xx-large;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  padding: 7.5px 10px;
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid #ccc;
+}
+
+.errors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+}
+
+/* 
+.card {
+  display: flex;
+  background-color: aqua;
+  height: 20vh;
+  background-color: #a4cdeb;
+  padding: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+}
+
+.errors{
+display: flex;
+background-color: black;
+justify-content: center;
+align-items: center;
+
+}
+
+.submit{
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.container .card 
+
 .label{
   color: white;
-  font-family: "Noto Sans Mono", monospace;
-  font-size: x-large;
+  
   margin: 0 auto;
   display: block;
 }
@@ -59,7 +126,7 @@
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
-}
+} */
 
 /*
 

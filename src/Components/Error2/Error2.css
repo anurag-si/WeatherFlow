@@ -9,16 +9,11 @@
   box-sizing: border-box;
 }
 
-.error {
-  display: flex;
-  font-size: x-large;
-  align-items: center;
-  justify-content: center;
+.error2 {
   font-family: "Noto Sans Mono", monospace;
- 
+  font-size: large;
 }
 
-.error1 {
-  padding-top: 40px;
-  color: white;
+.error3 {
+  color: #E10600;
 }

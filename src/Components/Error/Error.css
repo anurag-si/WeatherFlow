@@ -1,7 +1,4 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
-
-
 
 * {
   margin: 0px;
@@ -9,15 +6,13 @@
   box-sizing: border-box;
 }
 
-.error2 {
-  display: flex;
-  font-family: "Noto Sans Mono", monospace;
+.error {
+  font-size: large;
   align-items: center;
   justify-content: center;
-  font-size: x-large;
+  font-family: "Noto Sans Mono", monospace;
 }
 
-.error3 {
-  padding-top: 40px;
-  color: white;
+.error1 {
+  color: #ed0800;
 }

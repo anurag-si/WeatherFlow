@@ -4,7 +4,7 @@ import "./Error.css";
 const Error = () => {
   return (
     <div className="error">
-      <div className="error1">Please Enter City Name</div>
+      <div className="error1">*Please Enter City</div>
     </div>
   );
 };

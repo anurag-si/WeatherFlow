@@ -62,12 +62,16 @@ const Card1 = () => {
               placeholder="Enter City"
             />
             <br />
-            <button className="submit" type="submit">
-              Submit
-            </button>
+            <div className="submit">
+              <button className="submit1" type="submit">
+                Submit
+              </button>
+            </div>
+            <div className="errors">
+              {error && <Error />}
+              {error2 && <Error2 />}
+            </div>
           </form>
-          {error && <Error />}
-          {error2 && <Error2 />}
         </div>
       </div>
     );

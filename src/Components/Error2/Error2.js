@@ -5,9 +5,7 @@ const Error2 = () => {
   console.log("wring");
   return (
     <div className="error2">
-      <div className="error3">
-        Enter Correct City Name
-      </div>
+      <div className="error3">*Enter Correct City</div>
     </div>
   );
 };
