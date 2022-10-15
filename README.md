@@ -1,1 +1,1 @@
-cloud0.netlify.com
+https://cloud0.netlify.com/
